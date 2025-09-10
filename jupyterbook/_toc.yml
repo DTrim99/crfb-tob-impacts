@@ -1,0 +1,27 @@
+format: jb-book
+root: index
+
+parts:
+- caption: Introduction
+  chapters:
+  - file: intro/introduction
+
+- caption: Policy Options
+  chapters:
+  - file: policies/policy_descriptions
+
+- caption: Methodology
+  chapters:
+  - file: methods/modeling_approach
+
+- caption: Results
+  chapters:
+  - file: results/analysis_results
+
+- caption: Comparison with Other Studies
+  chapters:
+  - file: comparison/cbo_comparison
+
+- caption: Conclusion
+  chapters:
+  - file: conclusion/conclusion

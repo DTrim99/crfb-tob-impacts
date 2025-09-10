@@ -1,0 +1,50 @@
+# Configuration file for the Jupyter Book
+title: Social Security Taxation Reform Options: A PolicyEngine Analysis
+author: PolicyEngine Team
+logo: policy-impact-dashboard/public/policyengine.png
+
+# Force re-execution of notebooks
+execute:
+  execute_notebooks: force
+  timeout: 300
+
+# Book settings
+book:
+  title: Social Security Taxation Reform Options
+  author: PolicyEngine Team
+  language: en
+
+# HTML output settings
+html:
+  theme:
+    primary: blue
+    accent: light-blue
+  favicon: policy-impact-dashboard/public/favicon.ico
+  use_edit_page_button: true
+  use_repository_button: true
+  use_issues_button: true
+  extra_navbar: |
+    <p>PolicyEngine Analysis</p>
+  extra_footer: |
+    <p>Built with Jupyter Book</p>
+
+# Bibliography
+bibtex_bibfiles:
+  - references.bib
+
+# Math settings
+math:
+  mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Launch buttons
+launch_buttons:
+  notebook_interface: jupyterlab
+  colab_url: ""
+  binderhub_url: ""
+  thebe: false
+
+# Table of contents
+toc:
+  base: .
+  numbered: true
+  depth: 2
