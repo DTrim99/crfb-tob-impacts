@@ -1,6 +1,6 @@
 # Conclusion
 
-This chapter synthesizes the findings from our PolicyEngine analysis of the six Social Security taxation reform options. The analysis provides quantitative evidence for policymakers to evaluate different approaches to Social Security taxation reform.
+The chapter synthesizes the findings from our PolicyEngine analysis of the six Social Security taxation reform options. The analysis provides quantitative evidence for policymakers to evaluate different approaches to Social Security taxation reform.
 
 ## Summary of Key Findings
 
